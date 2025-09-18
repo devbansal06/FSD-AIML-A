@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: greenyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading">ABESEC Ghaziabad</div>
+    <form name="register" method="post" action="register.js">
+        <label for="name"> Name:</label>
+        <input type="text" name="name" placeholder="Enter username" required><br>
+        <label for="mobile"> Mobile no.:</label>
+        <input type="number" name="mobile" placeholder="Enter mobile no." required><br>
+        <label for="email"> Email:</label>
+        <input type="email" name="email" placeholder="Enter email" required><br>
+        <label for="dob"> Date of Birth:</label>
+        <input type="date" name="dob"><br>
+        <label for="gender"> Gender:</label>
+        <input type="radio" name="gender" value="M">Male
+        <input type="radio" name="gender" value="F">Female
+        <br>
+        <label for="address">Address:</label>
+        <textarea rows="5" cols="50">
+            Enter your current address
+        </textarea><br>
+        <label for="branch"> Branch:</label>
+        <select name="branch">
+            <option value="cse">cse</option>
+            <option value="cse-aiml">cse-aiml</option>
+            <option value="cse-ds">cse-ds</option>
+            <option value="cs">cs</option>
+            <option value="it">it</option>
+        </select><br>
+        <label for="sem">Semester:</label>
+        <select name="sem">
+            <option value="1">Ist</option>
+            <option value="3">IIIrd</option>
+            <option value="5">Vth</option>
+            <option value="7">VIth</option>
+        </select>
+        <input type="submit" value="Register Here">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
